@@ -56,7 +56,6 @@ function Hero() {
         </div>
 
         <div className="relative">
-          <div className="absolute w-80 h-80 bg-blue-500 rounded-full blur-3xl opacity-30"></div>
           <img
             src={profile}
             alt="Nasrin Akhter"
