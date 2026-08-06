@@ -6,7 +6,21 @@ function ProjectCard({ project }) {
     <motion.div
       whileHover={{ y: -10 }}
       transition={{ duration: 0.3 }}
-      className="group overflow-hidden rounded-2xl bg-slate-900 border border-slate-800 shadow-lg"
+      className="
+group
+bg-slate-800
+rounded-2xl
+overflow-hidden
+border
+border-slate-700
+hover:border-blue-500
+hover:-translate-y-2
+transition-all
+duration-300
+shadow-lg
+hover:shadow-blue-500/20
+hover:shadow-xl
+"
     >
       {/* Project Image */}
       <div className="overflow-hidden">
@@ -19,7 +33,9 @@ function ProjectCard({ project }) {
 
       {/* Content */}
       <div className="p-6">
-        <h3 className="text-2xl font-bold">{project.title}</h3>
+        <h3 className="text-2xl font-bold group-hover:text-blue-400 transition">
+          {project.title}
+        </h3>
 
         <p className="mt-4 text-slate-400 leading-7">{project.description}</p>
 
@@ -28,7 +44,19 @@ function ProjectCard({ project }) {
           {project.technologies.map((tech) => (
             <span
               key={tech}
-              className="rounded-full bg-blue-500/20 px-3 py-1 text-sm text-blue-400"
+              className="
+bg-blue-500/20
+text-blue-400
+px-3
+py-1
+rounded-full
+text-sm
+border
+border-blue-500/20
+hover:bg-blue-500
+hover:text-white
+transition
+"
             >
               {tech}
             </span>
@@ -41,7 +69,9 @@ function ProjectCard({ project }) {
             href={project.liveLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2 rounded-lg bg-blue-600 px-5 py-2 hover:bg-blue-700 transition"
+            className="flex items-center gap-2 rounded-lg bg-gradient-to-r
+from-blue-600
+to-cyan-500 px-5 py-2 hover:bg-blue-700 transition"
           >
             <FaExternalLinkAlt />
             Live
@@ -51,7 +81,11 @@ function ProjectCard({ project }) {
             href={project.githubLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2 rounded-lg border border-blue-500 px-5 py-2 hover:bg-blue-500 transition"
+            className="flex items-center gap-2 rounded-lg border
+border-slate-600
+hover:bg-white
+hover:text-black
+border-blue-500 px-5 py-2 hover:bg-blue-500 transition"
           >
             <FaGithub />
             GitHub

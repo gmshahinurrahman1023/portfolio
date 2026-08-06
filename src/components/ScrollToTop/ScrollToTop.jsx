@@ -26,7 +26,35 @@ function ScrollToTop() {
       {showButton && (
         <button
           onClick={scrollTop}
-          className="fixed bottom-6 right-6 z-50 bg-blue-600 hover:bg-blue-700 p-4 rounded-full shadow-lg hover:scale-110 transition-all duration-300"
+          className="
+fixed
+bottom-8
+right-8
+z-50
+
+w-14
+h-14
+
+rounded-full
+
+bg-gradient-to-r
+from-blue-500
+to-cyan-500
+
+shadow-lg
+
+hover:shadow-cyan-500/50
+
+hover:scale-110
+
+transition-all
+
+duration-300
+
+flex
+items-center
+justify-center
+"
         >
           <FaArrowUp />
         </button>
