@@ -37,19 +37,20 @@ function Skills() {
   ];
 
   return (
-    <section className="bg-slate-950 text-white py-24">
+    <section  id="skills" className="bg-slate-950 text-white py-24">
       <div className="max-w-5xl mx-auto px-6">
         <motion.h2
           initial={{ opacity: 0, y: -30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-4xl md:text-5xl font-bold text-center"
+          className="text-4xl md:text-5xl text-white font-bold text-center"
         >
-          My Skills
+          
+Skills & Technologies
         </motion.h2>
 
-        <p className="text-center text-slate-400 mt-4">
-          Technologies I'm learning and working with.
+        <p className="text-center text-green-400 mt-4">
+          The magical tools I use to bring ideas to life
         </p>
 
         <div className="mt-16 space-y-8">

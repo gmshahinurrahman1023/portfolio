@@ -9,23 +9,23 @@ function About() {
     "Tailwind CSS",
     "Git & GitHub",
   ];
-  const stats=[
-{
-number:"10+",
-title:"Projects"
-},
-{
-number:"1+",
-title:"Years Learning"
-},
-{
-number:"100%",
-title:"Passion"
-}
-]
+  const stats = [
+    {
+      number: "10+",
+      title: "Projects",
+    },
+    {
+      number: "1+",
+      title: "Years Learning",
+    },
+    {
+      number: "100%",
+      title: "Passion",
+    },
+  ];
 
   return (
-    <section className="bg-slate-900 text-white py-24">
+    <section  id="about" className="bg-slate-900 text-white py-24">
       <div className="max-w-7xl mx-auto px-6">
         {/* Heading */}
         <h2 className="text-4xl md:text-5xl font-bold text-center">About Me</h2>
@@ -71,23 +71,21 @@ title:"Passion"
 
             {/* Stats */}
             <div className="flex flex-wrap gap-6 mt-10">
-{/* Stats */}
-<div className="flex flex-wrap gap-6 mt-10">
-  {stats.map((stat) => (
-    <div
-      key={stat.title}
-      className="bg-slate-800 px-6 py-4 rounded-xl hover:bg-blue-600 duration-300"
-    >
-      <h2 className="text-3xl font-bold text-blue-400">
-        {stat.number}
-      </h2>
+              {/* Stats */}
+              <div className="flex flex-wrap gap-6 mt-10">
+                {stats.map((stat) => (
+                  <div
+                    key={stat.title}
+                    className="bg-slate-800 px-6 py-4 rounded-xl hover:bg-blue-600 duration-300"
+                  >
+                    <h2 className="text-3xl font-bold text-blue-400">
+                      {stat.number}
+                    </h2>
 
-      <p className="text-slate-300">
-        {stat.title}
-      </p>
-    </div>
-  ))}
-</div>
+                    <p className="text-slate-300">{stat.title}</p>
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
         </div>

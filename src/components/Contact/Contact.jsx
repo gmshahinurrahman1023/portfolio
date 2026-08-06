@@ -8,7 +8,7 @@ function Contact() {
   const [message, setMessage] = useState("");
 
   return (
-    <section className="bg-slate-950 text-white py-24">
+    <section id="contact" className="bg-slate-950 text-white py-24">
       <div className="max-w-7xl mx-auto px-6">
         <motion.h2
           initial={{ opacity: 0, y: -30 }}
@@ -92,19 +92,6 @@ function Contact() {
             <button className="bg-blue-600 hover:bg-blue-700 px-8 py-4 rounded-lg font-semibold duration-300">
               Send Message
             </button>
-            <div className="mt-6 bg-slate-800 p-4 rounded-lg">
-              <p>
-                <strong>Name:</strong> {name}
-              </p>
-
-              <p>
-                <strong>Email:</strong> {email}
-              </p>
-
-              <p>
-                <strong>Message:</strong> {message}
-              </p>
-            </div>
           </motion.form>
         </div>
       </div>
