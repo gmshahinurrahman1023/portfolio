@@ -16,8 +16,8 @@ const hero = {
   resume: "/resume.pdf",
 
   social: {
-    github: "https://github.com/your-github",
-    linkedin: "https://linkedin.com/in/your-linkedin",
+    github: "https://github.com/nasrinrahman19924",
+    linkedin: "https://www.linkedin.com/in/nasrin-akhter",
     facebook: "https://facebook.com/your-facebook",
   },
 };
