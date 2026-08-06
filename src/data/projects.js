@@ -6,8 +6,8 @@ const projects = [
       "A modern and responsive portfolio website built with React and Tailwind CSS.",
     image: "/projects/portfolio.png",
     technologies: ["React", "Tailwind CSS", "Framer Motion"],
-    liveLink: "https://your-live-demo.com",
-    githubLink: "https://github.com/yourusername/portfolio",
+    liveLink: "https://portfolio-three-tau-3soggl9i99.vercel.app",
+    githubLink: "https://github.com/nasrinrahman19924/portfolio",
   },
   {
     id: 2,
