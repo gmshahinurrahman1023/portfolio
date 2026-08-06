@@ -11,23 +11,23 @@ const projects = [
   },
   {
     id: 2,
-    title: "Car Rental System",
+    title: "digital-life-lessons",
     description:
-      "A full-stack car rental platform with authentication and booking features.",
-    image: "/projects/car-rental.png",
+      "A full-stack digital-life-lessons platform with authentication and listing features.",
+    image: "/projects/digital-life.png",
     technologies: ["Next.js", "MongoDB", "Better Auth"],
-    liveLink: "https://your-live-demo.com",
-    githubLink: "https://github.com/yourusername/car-rental",
+    liveLink: "https://digital-life-lessons1-client.vercel.app",
+    githubLink: "https://github.com/nasrinrahman19924/digital-life-lessons1-client",
   },
   {
     id: 3,
-    title: "Restaurant Website",
+    title: "book-borrowing-app",
     description:
-      "Responsive restaurant website with modern UI and smooth animations.",
-    image: "/projects/restaurant.png",
+      "A responsive book borrowing application with a modern UI and smooth animations.",
+    image: "/projects/book-borrowing-app.png",
     technologies: ["React", "Tailwind CSS"],
-    liveLink: "https://your-live-demo.com",
-    githubLink: "https://github.com/yourusername/restaurant",
+    liveLink: "https://book-borrowing-app.vercel.app",
+    githubLink: "https://github.com/nasrinrahman19924/book-borrowing-app",
   },
 ];
 

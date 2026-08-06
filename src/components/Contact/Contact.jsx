@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { FaEnvelope, FaPhoneAlt, FaMapMarkerAlt } from "react-icons/fa";
 import { motion } from "framer-motion";
+import contact from "../../data/contact";
 
 function Contact() {
   const [name, setName] = useState("");
@@ -38,22 +39,24 @@ function Contact() {
             </p>
 
             <div className="mt-10 space-y-6">
-              <div className="flex items-center gap-4">
-                <FaEnvelope className="text-blue-500 text-2xl" />
+              <div className="bg-slate-900 border border-slate-800 rounded-xl p-5 flex items-center gap-5 hover:border-blue-500 hover:-translate-y-1 transition-all duration-300">
+                <div className="bg-blue-500/20 p-4 rounded-full">
+                  <FaEnvelope className="text-blue-400 text-2xl" />
+                </div>
 
-                <span>nasrin@example.com</span>
+                <span>{contact.email}</span>
               </div>
 
-              <div className="flex items-center gap-4">
+              <div className="bg-slate-900 border border-slate-800 rounded-xl p-5 flex items-center gap-5 hover:border-blue-500 hover:-translate-y-1 transition-all duration-300">
                 <FaPhoneAlt className="text-blue-500 text-2xl" />
 
-                <span>+8801XXXXXXXXX</span>
+                <span>{contact.phone}</span>
               </div>
 
-              <div className="flex items-center gap-4">
+              <div className="bg-slate-900 border border-slate-800 rounded-xl p-5 flex items-center gap-5 hover:border-blue-500 hover:-translate-y-1 transition-all duration-300">
                 <FaMapMarkerAlt className="text-blue-500 text-2xl" />
 
-                <span>Bangladesh</span>
+                <span>{contact.location}</span>
               </div>
             </div>
           </motion.div>
@@ -70,7 +73,21 @@ function Contact() {
               placeholder="Your Name"
               value={name}
               onChange={(e) => setName(e.target.value)}
-              className="w-full bg-slate-900 p-4 rounded-lg outline-none border border-slate-700 focus:border-blue-500"
+              className="
+w-full
+bg-slate-900
+border
+border-slate-700
+rounded-xl
+px-5
+py-4
+outline-none
+transition-all
+duration-300
+focus:border-blue-500
+focus:ring-2
+focus:ring-blue-500/20
+"
             />
 
             <input
@@ -78,7 +95,21 @@ function Contact() {
               placeholder="Your Email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              className="w-full bg-slate-900 p-4 rounded-lg outline-none border border-slate-700 focus:border-blue-500"
+              className="
+w-full
+bg-slate-900
+border
+border-slate-700
+rounded-xl
+px-5
+py-4
+outline-none
+transition-all
+duration-300
+focus:border-blue-500
+focus:ring-2
+focus:ring-blue-500/20
+"
             />
 
             <textarea
@@ -86,11 +117,39 @@ function Contact() {
               placeholder="Your Message"
               value={message}
               onChange={(e) => setMessage(e.target.value)}
-              className="w-full bg-slate-900 p-4 rounded-lg outline-none border border-slate-700 focus:border-blue-500"
+              className="
+w-full
+bg-slate-900
+border
+border-slate-700
+rounded-xl
+px-5
+py-4
+outline-none
+transition-all
+duration-300
+focus:border-blue-500
+focus:ring-2
+focus:ring-blue-500/20
+"
             />
 
-            <button className="bg-blue-600 hover:bg-blue-700 px-8 py-4 rounded-lg font-semibold duration-300">
-              Send Message
+            <button
+              className="
+w-full
+bg-blue-600
+hover:bg-blue-700
+hover:-translate-y-1
+transition-all
+duration-300
+rounded-xl
+py-4
+font-semibold
+shadow-lg
+hover:shadow-blue-500/40
+"
+            >
+              Send Message 🚀
             </button>
           </motion.form>
         </div>
