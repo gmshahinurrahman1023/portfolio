@@ -1,7 +1,7 @@
 const hero = {
   greeting: "Hello, I'm 👋",
 
-  name: "Nasrin Rahman",
+  name: "GM Shahinur Rahman",
 
   roles: [
     "Frontend Developer",
@@ -16,9 +16,9 @@ const hero = {
   resume: "/resume.pdf",
 
   social: {
-    github: "https://github.com/nasrinrahman19924",
-    linkedin: "https://www.linkedin.com/in/nasrin-akhter",
-    facebook: "https://facebook.com/your-facebook",
+    github: "https://github.com/gmshahinurrahman1023",
+    linkedin: "www.linkedin.com/in/gm-shahinur-rahman1023",
+    facebook: "https://www.facebook.com/g.m.shahinur.rahman.342674",
   },
 };
 
