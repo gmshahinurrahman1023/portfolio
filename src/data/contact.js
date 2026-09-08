@@ -4,9 +4,9 @@ const contact = {
   location: "Khulna, Bangladesh",
 
   social: {
-    github: "https://github.com/nasrinrahman19924",
-    linkedin: "https://linkedin.com/in/yourusername",
-    facebook: "https://facebook.com/yourusername",
+    github: "https://github.com/gmshahinurrahman1023",
+    linkedin: "www.linkedin.com/in/gm-shahinur-rahman1023",
+    facebook: "https://www.facebook.com/g.m.shahinur.rahman.342674",
   },
 };
 

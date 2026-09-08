@@ -1,5 +1,5 @@
 const site = {
-  name: "Nasrin Rahman",
+  name: "GM Shahinur Rahman",
   resume: "/resume.pdf",
 };
 

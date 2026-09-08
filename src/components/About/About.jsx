@@ -1,4 +1,4 @@
-import profile from "../../assets/images/shahin pc.jpg";
+import profile from "../../assets/images/Shahin pc.jpg";
 
 function About() {
   const skills = [
