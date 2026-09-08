@@ -1,4 +1,4 @@
-import profile from "../../assets/images/nas.jpg";
+import profile from "../../assets/images/shahin pc.jpg";
 import { motion } from "framer-motion";
 import hero from "../../data/hero";
 import heroIcons from "../../data/heroIcons";
