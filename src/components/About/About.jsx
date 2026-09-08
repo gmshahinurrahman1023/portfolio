@@ -48,7 +48,7 @@ function About() {
 
           {/* Right Side */}
           <div className="flex-1">
-            <h3 className="text-3xl font-bold">Hi, I'm Nasrin Rahman 👋</h3>
+            <h3 className="text-3xl font-bold">Hi, I'm GM Shahinur Rahman👋</h3>
 
             <p className="mt-6 text-slate-400 leading-8">
               I'm a passionate Frontend Developer currently learning React,
