@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import navLinks from "../../data/navLinks";
 import site from "../../data/site";
-import { link } from "framer-motion/client";
+
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
