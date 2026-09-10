@@ -10,7 +10,7 @@ function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center gap-8">
           {/* Left */}
           <div>
-            <h2 className="text-3xl font-bold text-blue-400">Nasrin Rahman</h2>
+            <h2 className="text-3xl font-bold text-blue-400">GM Shahinur Rahman</h2>
 
             <p className="text-slate-400 mt-3 max-w-md">
               Passionate Frontend Developer who loves building modern,
